@@ -1,0 +1,70 @@
+.root {
+  padding: 0 20px;
+}
+
+.addToDoForm {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.addToDoInput {
+  height: 50px;
+  width: 100%;
+  padding: 0 18px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  color: darkslategray;
+  &:focus-within {
+    outline: none;
+  }
+}
+
+.countInput {
+  height: 50px;
+  width: auto;
+  max-width: 50%;
+  padding: 0 18px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  color: darkslategray;
+  &:focus-within {
+    outline: none;
+  }
+}
+
+.countForm {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.noInfo {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: gray;
+}
+
+.productsList {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid palegoldenrod;
+  &:last-child {
+    border-bottom: 1px solid palegoldenrod;
+  }
+  height: 70px;
+}
+
+.settings {
+  display: flex;
+  gap: 30px;
+}

@@ -1,0 +1,91 @@
+.user-info {
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 375px) {
+  .user-info {
+    padding: 0;
+  }
+}
+
+.user-info .title {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}
+
+.user-info .cross {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.user-info .cross:hover {
+  cursor: pointer;
+}
+
+.user-info a {
+  color: slateblue;
+}
+
+.user-info .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+.user-info .info .name {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.user-info .info .position {
+  font-weight: normal;
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.user-info .img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.user-info table {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 567px) {
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.user-info table td {
+  padding: 15px;
+}
+@media screen and (max-width: 375px) {
+  .user-info table td {
+    padding: 10px;
+    overflow-wrap: anywhere;
+  }
+}
+.user-info table tr td:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+.user-info table tr td:last-child {
+  font-size: 18px;
+}
+
+
+/*Normal*/
+
+
+.content {
+  padding-top: 40px
+}

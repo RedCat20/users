@@ -1,0 +1,60 @@
+.root {
+
+}
+
+.table {
+  width: 100%;
+  border-spacing: 20px 0;
+
+  .remove-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  tr td {
+    width: 100%;
+    &:nth-child(1) {
+      width: 10%;
+    }
+    &:nth-child(2) {
+      width: 50%;
+    }
+    &:nth-child(3) {
+      width: 40%;
+    }
+  }
+
+  thead td {
+    color: gray;
+    font-weight: bold;
+  }
+
+  td:first-child {
+    color: gray;
+    font-weight: bold;
+  }
+
+  td:first-child, td:last-child {
+    text-align: center;
+  }
+
+  td:last-child button {
+    width: 40px;
+    height: 30px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  td {
+    padding: 20px 10px;
+    border-bottom: 1px solid #e8e8e8;
+    min-width: 50px;
+    vertical-align: center;
+  }
+
+  td:first-child {
+    text-align: center;
+  }
+}

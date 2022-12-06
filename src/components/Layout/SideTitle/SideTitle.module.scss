@@ -1,0 +1,12 @@
+.root {
+  writing-mode: vertical-rl;
+  min-height: 100vh;
+  color: gray;
+  text-orientation: mixed;
+  padding: 75px 10px 0 10px;
+  font-size: 52px;
+  background: palegoldenrod;
+  @media screen and (max-width: 575px) {
+    display: none;
+  }
+}

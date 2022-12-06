@@ -1,0 +1,46 @@
+.user-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 45px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px 30px 15px;
+  border-bottom: 1px solid #ccc;
+  @media screen and (max-width: 575px) {
+    padding: 15px 0 15px 0;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr;
+  }
+  @media screen and (max-width: 575px) {
+    & > div:first-child {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.user-item:first-child {
+  padding-top: 0;
+}
+.user-item:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.user-name {
+  margin-bottom: 10px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.user-nickname {
+  font-weight: 500;
+  color: #505050;
+  overflow-wrap: anywhere;
+  @media screen and (max-width: 575px) {
+    margin-bottom: 20px;
+  }
+}
+
+img {
+  max-width: 100px;
+  max-height: 200px;
+}

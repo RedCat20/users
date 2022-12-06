@@ -1,0 +1,24 @@
+.root {
+  max-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px;
+  border: 1px solid #ccc;
+  background: white;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.root:hover {
+  cursor: pointer;
+}
+
+.normal {
+  box-shadow: none;
+}
+
+.hovered {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 1px;
+}

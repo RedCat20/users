@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the class when hovered 1`] = `
+<button
+  className="root normal"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "#fff",
+      "color": "#000",
+      "marginTop": "undefinedpx",
+      "width": "auto",
+    }
+  }
+>
+  <span>
+     
+    Facebook
+     
+  </span>
+</button>
+`;
+
+exports[`changes the class when hovered 2`] = `
+<button
+  className="root hovered"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "#fff",
+      "color": "#000",
+      "marginTop": "undefinedpx",
+      "width": "auto",
+    }
+  }
+>
+  <span>
+     
+    Facebook
+     
+  </span>
+</button>
+`;
+
+exports[`changes the class when hovered 3`] = `
+<button
+  className="root normal"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "background": "#fff",
+      "color": "#000",
+      "marginTop": "undefinedpx",
+      "width": "auto",
+    }
+  }
+>
+  <span>
+     
+    Facebook
+     
+  </span>
+</button>
+`;
